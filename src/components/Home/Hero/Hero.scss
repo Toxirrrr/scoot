@@ -1,0 +1,77 @@
+.hero {
+    background-image: url('/img/hero__bgi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .hero__wrapper {
+        padding: 153px 0  152px 0;
+        .hero__header {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;
+            max-width: 500px;            
+            width: 100%;
+        }
+        
+        .hero__text-wrapper {
+            position: relative;
+            margin-left: 105px;
+            max-width: 405px;
+            .hero__text {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+                margin: 40px 0;
+                width: 82%;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    width: 1000px;
+                    height: 30px;
+                    background-color: #FCB72B;
+                    top: 37px;
+                    left: -1057px;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    width: 453px;
+                    height: 152px;
+                    background-image: url('/img/hero__after.svg');
+                    background-repeat: no-repeat;
+                    top: 37px;
+                    left: 370px;
+                }
+            }
+            
+            .hero__btn {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                color: #FFFFFF;
+                padding: 14px 39px;
+                background-color: #FCB72B;
+                transition: all 0.4s ease;
+                border: 3px solid #FCB72B;
+                &:hover {
+                    background-color: #fff;
+                    color: #FCB72B;
+                    border: 3px solid #FCB72B;
+                }
+            }
+        }
+    }
+}
+
+
