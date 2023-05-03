@@ -18,7 +18,7 @@
         
         .hero__text-wrapper {
             position: relative;
-            margin-left: 105px;
+            margin-left: 95px;
             max-width: 405px;
             .hero__text {
                 font-family: 'Lexend Deca';
@@ -28,13 +28,13 @@
                 line-height: 25px;
                 color: #FFFFFF;
                 margin: 40px 0;
-                width: 82%;
+                width: 100%;
                 &::before {
                     content: '';
                     position: absolute;
                     display: inline-block;
                     width: 1000px;
-                    height: 30px;
+                    height: 15px;
                     background-color: #FCB72B;
                     top: 37px;
                     left: -1057px;
@@ -48,7 +48,7 @@
                     background-image: url('/img/hero__after.svg');
                     background-repeat: no-repeat;
                     top: 37px;
-                    left: 370px;
+                    left: 440px;
                 }
             }
             
@@ -60,7 +60,7 @@
                 line-height: 25px;
                 text-align: center;
                 color: #FFFFFF;
-                padding: 14px 39px;
+                padding: 13.7px 37.2px;
                 background-color: #FCB72B;
                 transition: all 0.4s ease;
                 border: 3px solid #FCB72B;
